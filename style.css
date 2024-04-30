@@ -1,0 +1,294 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+   }
+   nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    min-height: 10vh;
+    background-color:green;
+    font-family:arial black;
+    }
+    .data{
+        color:black;
+        margin-left:30px;
+        font-size: 30px;
+        font-weight: 500;
+      
+       }
+       .nav-links {
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+         }
+       .nav-links li {
+         list-style: none;
+        }
+         .nav-links a {
+        color: white;
+        text-decoration: none;
+        letter-spacing: 5px;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 14px 16px;
+        font-family: 'Times New Roman', Times, serif;
+        
+      }
+        .nav-links a:hover:not(.active) {
+          background-color:mediumseagreen;
+        
+          }
+         .nav-links li a.active {
+           background-color:mediumspringgreen;
+         } 
+         h4{
+          text-align: left;
+            }
+         #pic{
+            background: url(tree.jpg)no-repeat;
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            background-attachment: fixed;
+         } 
+         P{
+            color: whitesmoke;
+            text-align:center;
+         }
+         h1{
+            color:black;
+            text-align: center;
+            margin-top: 150px;
+            font-family: algerian;
+            font-size: 50px;
+        
+         }
+         h2{
+          color: black;
+          text-align: center;
+          font-size: 30px;
+          
+         }
+         
+          .btn{
+            width: 15%;
+            height: 45px;
+            margin-inline: 600px;
+            outline: none; 
+            border-radius: 20px;
+            border-color:whitesmoke;
+            cursor:pointer ;
+            font-size: 16px;
+            color:whitesmoke;
+            background-color: orangered;
+            font-family: arial black;
+            font-weight: 600;
+
+              }
+              .container{
+                width:100%;
+                height:400px;
+                background-color:whitesmoke;
+                margin-top:30px;
+              }
+              .one, .two, .three,.four{
+                float: left;
+                width: 25%;
+                color:black;
+                padding: 10px;
+                height: 1000px;
+                   }
+              .one, .two {
+                 float: left;
+                 color:black;
+                 padding: 20px;
+                 margin-left: 50px;
+                     }
+              .one {
+                 background-color:white;
+                 width:20%;
+                 height:150px;
+                 margin-top: 50px;
+                    }	
+                .two {
+                  background-color: white;
+                  width: 20%;
+                  height: 150px;
+                  margin-top: 50px;
+                       }
+                .three, .four {
+                  float: left;
+                  color:black;
+                  padding: 20px;
+                  margin-left: 50px;
+                     }
+                .three {
+                   background-color: white;
+                   width:20%;
+                   height:150px;
+                   margin-top: 50px;
+                         }	
+                .four{
+                  background-color: white;
+                  width: 20%;
+                  height: 150px;
+                  margin-top: 50px;
+                        }
+        #new{
+          color:black;
+          
+          }
+        #rk{
+          font-size: 30px;
+          color: black;
+          
+        }
+        .span{
+          margin-top: 18%;
+          width:100%;
+          height:1000px;
+          background-color: whitesmoke;
+        }
+        .num1, .num2, .num3,.num4{
+          float: left;
+          width: 25%;
+          color:black;
+          height: 1000px;
+        
+          
+             }
+        .num1, .num2 {
+           float: left;
+           color:black;
+           padding: 0px;
+           margin-left: 0px;
+               }
+       .num1 {
+           background-color:white;
+          width: 25%;
+          height: 500px;
+           margin-top: 50px;
+           
+              }	
+        .num2{
+            background-color:white;
+            width: 25%;
+          height: 500px;
+            margin-top: 50px;
+                 }
+          .num3,.num4{
+            float: left;
+            color:black;
+            padding:0px;
+            margin-left: 0px;
+               }
+          .num3{
+             background-color:white;
+             width: 25%;
+             height: 500px;
+             margin-top: 50px;
+             padding: 0px;
+                   }	
+          .num4{
+            background-color:white;
+            width: 25%;
+            height: 500px;
+            margin-top: 50px;
+            padding: 0px;
+                  }              
+                
+                  .arrow{
+                    margin-top: 50%;
+                    width:100%;
+                    height:1000px;
+                    background-color:whitesmoke;
+                  }
+                    
+                  .count1, .count2, .count3,.count4{
+                    float: left;
+                    width: 25%;
+                    color:black;
+                    padding: 10px;
+                    height: 1000px;
+                       }
+                  .count1, .count2 {
+                     float: left;
+                     color:black;
+                     padding: 0px;
+                     margin-left: 50px;
+                         }
+                  .count1 {
+                     background-color:gray;
+                     width:20%;
+                     height:200px;
+                     margin-top: 50px;
+                        }	
+                    .count2 {
+                      background-color: gray;
+                      width: 20%;
+                      height: 200px;
+                      margin-top: 50px;
+                           }
+                    .count3, .count4 {
+                      float: left;
+                      color:black;
+                      padding: 0px;
+                      margin-left: 50px;
+                         }
+                    .count3 {
+                       background-color: gray;
+                       width:20%;
+                       height:200px;
+                       margin-top: 50px;
+                             }	
+                    .count4{
+                      background-color: gray;
+                      width: 20%;
+                      height: 200px;
+                      margin-top: 50px;
+                            }
+      .wrapper{
+          margin-top: 25%;
+          width:100%;
+          height:1000px;
+          background-color:white; 
+          
+        } 
+        .quiz{
+          background-color: whitesmoke;
+          width: 50%;
+          height:400px ;
+          margin: 300px;
+          margin-top: 80px;
+        }
+      .dot1{
+          
+            background-color:whitesmoke;
+            color: black;
+            height:400px;
+            width:30%;
+            margin-top: 0px;
+           } 
+          
+       #num{
+                font-size: 15px;
+                 margin-top: 0px;
+                 color: black;
+               }
+               #rr{
+                text-align: center;
+                
+              font-family: 'Times New Roman', Times, serif;
+              font-size: 30px;
+               }
+        #now{
+          color: black;
+          text-align: center;
+          font-size: 25px;
+          
+          
+        }       
